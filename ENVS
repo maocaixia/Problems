@@ -1,1 +1,10 @@
 1、编译Pytorch caffe2：ibcaffe2_gpu.so: undefined reference to `TLS init function for caffe2::CUDAContext::cuda_objects_
+  原因：gcc版本不匹配，gcc版本应在gcc4.8.5及以上
+  下载对应的gcc源代码：https://ftp.gnu.org/gnu/gcc/
+  编译安装（./configure&&make&&make install），--prefix=指定目录到自己的目录下
+  更改~/.bashrc中PATH&LD_LIBRARY_PATH，注意新加的路径加在最前面
+  更改CC&CXX的值
+  export CC=/usr/local/bin/gcc
+  export CXX=/usr/local/bin/g++
+
+
