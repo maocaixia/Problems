@@ -1,1 +1,1 @@
-
+1、编译Pytorch caffe2：ibcaffe2_gpu.so: undefined reference to `TLS init function for caffe2::CUDAContext::cuda_objects_
