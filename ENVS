@@ -7,4 +7,6 @@
   export CC=/usr/local/bin/gcc
   export CXX=/usr/local/bin/g++
 
+2、windows下安装labelimg，可直接通过anaconda3来安装python，自带相关的库文件
+
 
